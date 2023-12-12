@@ -16,7 +16,7 @@ const userSlice = createSlice({
     },
     // when you have to called same function which is common working in other slice
     extraReducers(builder) {
-      builder.addCase(userSlice.actions.deleteUse, () => {
+      builder.addCase(userSlice.actions.deleteUsers, () => {
         return [];
       });
     },
